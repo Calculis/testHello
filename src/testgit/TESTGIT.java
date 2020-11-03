@@ -18,7 +18,13 @@ public class TESTGIT {
         // TODO code application logic here
         System.out.println("Hello");
         System.out.println("Hello branch");
+        hello();
        
+    }
+    private static void hello(){
+        for(int i=0;i<3;i++){
+            System.out.println("Hello");
+        }
     }
     
 }
